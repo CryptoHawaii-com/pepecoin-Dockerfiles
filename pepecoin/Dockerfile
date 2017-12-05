@@ -2,7 +2,7 @@ FROM ubuntu
 MAINTAINER tnssfairchild (sfairchild@trinet-hi.com)
 RUN /bin/bash -c 'apt-get -y update'
 RUN /bin/bash -c 'mkdir -m755 /root/.pepecoin'
-COPY /root/pepecoin/src/pepecoind /root/.pepecoin/pepecoind
+COPY pepecoind /root/.pepecoin/pepecoind
 RUN /bin/bash -c 'USERNAME=$(pwgen -s 16 1) && PASSWORD=$(pwgen -s 64 1) && cat <<EOF > /root/.pepecoin/pepecoin.conf \
 rpcuser=$USERNAME\
 rpcpassword=$PASSWORD\
