@@ -1,6 +1,8 @@
 #!/bin/bash
 
+export DEBIAN_FRONTEND=noninteractive
 apt -y -o Acquire::ForceIPv4=true update
+apt-get -y -o "Dpkg::Options::=--force-confdef" -o "Dpkg::Options::=--force-confold" upgrade
 apt -y install apt-transport-https ca-certificates curl software-properties-common git
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 apt-key fingerprint 0EBFCD88
