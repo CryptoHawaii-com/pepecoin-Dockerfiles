@@ -56,4 +56,5 @@ cd /var/www/html
 wget https://raw.githubusercontent.com/CryptoHawaii-com/pepecoin-Dockerfiles/master/webscript/index.html
 wget https://raw.githubusercontent.com/CryptoHawaii-com/pepecoin-Dockerfiles/master/webscript/masternode.php
 mkdir /var/www/masternodeprivkey
+touch /var/www/masternodeprivkey/masternodeprivkey.txt
 chown -R www-data.www-data /var/www/masternodeprivkey
