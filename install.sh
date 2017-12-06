@@ -43,7 +43,7 @@ wget https://raw.githubusercontent.com/CryptoHawaii-com/pepecoin-Dockerfiles/mas
 docker build -t "pepecoinmasternode" .
 
 #SETUP WEB SERVER FOR MASTER NODE KEY
-apt-get -y install apache2 php libapache2-mod-php php-mcrypt
+apt-get -y install apache2 php libapache2-mod-php php-mcrypt inotify-tools
 systemctl start apache2
 a2ensite default-ssl 
 a2enmod ssl 
