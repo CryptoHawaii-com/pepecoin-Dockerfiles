@@ -58,3 +58,4 @@ wget https://raw.githubusercontent.com/CryptoHawaii-com/pepecoin-Dockerfiles/mas
 mkdir /var/www/masternodeprivkey
 touch /var/www/masternodeprivkey/masternodeprivkey.txt
 chown -R www-data.www-data /var/www/masternodeprivkey
+chown -R www-data.www-data /var/www/html
