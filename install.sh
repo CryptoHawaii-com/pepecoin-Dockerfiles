@@ -34,4 +34,4 @@ make -f makefile.unix USE_UPNP=-1
 
 wget https://raw.githubusercontent.com/CryptoHawaii-com/pepecoin-Dockerfiles/master/pepecoin/Dockerfile
 docker build -t "pepecoin" .
-docker run -d -p 29373:29377 pepecoin
+docker run -d -p 29377:29377 pepecoin
