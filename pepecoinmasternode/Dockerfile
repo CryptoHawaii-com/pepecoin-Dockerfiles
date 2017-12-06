@@ -19,4 +19,3 @@ echo "maxconnections=300" >> /root/.pepecoin/pepecoin.conf && \
 echo "masternodeprivkey=INSERTPRIVATEKEYHERE" >> /root/.pepecoin/pepecoin.conf && \
 echo "masternodeaddr=$IP:29387" && \
 echo "masternode=1" >> /root/.pepecoin/pepecoin.conf'
-CMD /root/.pepecoin/pepecoind -datadir=/root/.pepecoin -conf=/root/.pepecoin/pepecoin.conf
