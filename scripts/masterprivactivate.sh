@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 while inotifywait -e modify /var/www/masternodeprivkey/masternodeprivkey.txt; do
   IP=$(curl ipinfo.io/ip)
   USERNAME=$(pwgen -s 16 1)
