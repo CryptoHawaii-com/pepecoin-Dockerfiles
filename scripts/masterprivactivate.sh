@@ -18,4 +18,5 @@ while inotifywait -e modify /var/www/masternodeprivkey/masternodeprivkey.txt; do
   echo "masternodeprivkey=$MASTERNODEPRIVKEY" >> /root/pepecoin.conf
   echo "masternode=1" >> /root/pepecoin.conf
   echo "masternopeaddr=$IP:29387" >> /root/pepecoin.conf
+  break 
 done
