@@ -36,10 +36,8 @@ wget https://raw.githubusercontent.com/CryptoHawaii-com/pepecoin-Dockerfiles/mas
 docker build -t "pepecoin" .
 docker run -d -p 29377:29377 pepecoin
 
-cd /root
-mkdir pepecoinmasternode
-cd pepecoinmasternode
 
+rm /root/pepecoin/src/Dockerfile
 wget https://raw.githubusercontent.com/CryptoHawaii-com/pepecoin-Dockerfiles/master/pepecoinmasternode/Dockerfile
 docker build -t "pepecoinmasternode" .
 docker run -d -p 29387:29387 pepecoinmasternode
