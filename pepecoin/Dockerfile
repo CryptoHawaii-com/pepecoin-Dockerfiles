@@ -17,4 +17,4 @@ echo "addnode=seed3.freepepe.org" >> /root/.pepecoin/pepecoin.conf && \
 echo "addnode=162.248.93.192:29377" >> /root/.pepecoin/pepecoin.conf && \
 echo "litemode=1" >> /root/.pepecoin/pepecoin.conf && \
 echo "masternode=0" >> /root/.pepecoin/pepecoin.conf'
-
+CMD /root/.pepecoin/pepecoind -daemon -datadir=/root/.pepecoin -conf=/root/.pepecoin/pepecoin.conf
