@@ -1,3 +1,4 @@
+#Create 2 docker containers, 1 for pepecoind non master node, 1 for pepecoind masternode
 #!/bin/bash
 
 export DEBIAN_FRONTEND=noninteractive
@@ -40,4 +41,12 @@ docker run -d --restart always -p 29377:29377 --name pepecoin pepecoin
 rm /root/pepecoin/src/Dockerfile
 wget https://raw.githubusercontent.com/CryptoHawaii-com/pepecoin-Dockerfiles/master/pepecoinmasternode/Dockerfile
 docker build -t "pepecoinmasternode" .
+
+#SETUP WEB SERVER FOR MASTER NODE KEY
+apt-get -y install apache2 php
+systemctl start apache2
+a2ensite default-ssl 
+a2enmod ssl 
+systemctl restart apache2 
+ufw allow 443/tcp
 
