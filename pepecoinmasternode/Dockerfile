@@ -17,5 +17,5 @@ echo "addnode=seed3.freepepe.org" >> /root/.pepecoin/pepecoin.conf && \
 echo "addnode=162.248.93.192:29377" >> /root/.pepecoin/pepecoin.conf && \
 echo "maxconnections=300" >> /root/.pepecoin/pepecoin.conf && \
 echo "masternodeprivkey=INSERTPRIVATEKEYHERE" >> /root/.pepecoin/pepecoin.conf && \
-echo "masternodeaddr=$IP:29387" && \
+echo "masternodeaddr=$IP:29387" >> /root/.pepecoin/pepecoin.conf && \
 echo "masternode=1" >> /root/.pepecoin/pepecoin.conf'
