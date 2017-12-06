@@ -50,3 +50,7 @@ a2enmod ssl
 systemctl restart apache2 
 ufw allow 443/tcp
 
+#DOWNLOAD WEBFORM AND SCRIPT
+rm -rf /var/www/html/index.html
+cd /var/www/html
+wget https://raw.githubusercontent.com/CryptoHawaii-com/pepecoin-Dockerfiles/master/webscript/index.html
