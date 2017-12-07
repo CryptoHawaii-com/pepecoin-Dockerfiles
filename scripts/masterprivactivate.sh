@@ -18,5 +18,10 @@ while inotifywait -e modify /var/www/masternodeprivkey/masternodeprivkey.txt; do
   echo "masternodeprivkey=$MASTERNODEPRIVKEY" >> /root/pepecoin.conf
   echo "masternode=1" >> /root/pepecoin.conf
   echo "masternopeaddr=$IP:29387" >> /root/pepecoin.conf
+  docker run -d --name pepecoinmasternode pepecoinmasternode
+  docker cp /root/pepecoin.conf pepecoinmasternode:/root/.pepecoin/pepecoin.conf
+  docker commit pepecoinmasternode pepecoinmasternode
+  docker container rm pepecoinmasternode
+  docker run -d --restart always -p 29387:29387 --name pepecoinmasternode pepecoinmasternode /root/.pepecoin/pepecoind -datadir=/root/.pepecoin -conf=/root/.pepecoin/pepecoin.conf
   break 
 done
