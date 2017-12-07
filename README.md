@@ -20,7 +20,9 @@ output will look similar to this:
 
 ```f93f055fd7d7        pepecoin             "/bin/sh -c '/root..."   19 hours ago        Up 3 hours          0.0.0.0:29377->29377/tcp   pepecoin```
 
-Required: You must now activate your master node or manually stop the webserver.
+**Required** 
+
+You must now activate your master node or manually stop the webserver.
 
 Activating your master node is very simple. 
 When generating your masternodeprivkey configuration you will need the following details:
