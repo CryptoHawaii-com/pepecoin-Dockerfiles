@@ -3,7 +3,7 @@
 
 Purpose: Install to 2 docker containers, 1 pepecoin blockchain seeder, 1 pepecoin masternode
 
-###Install:
+### Install:
 
 Required: Fresh install Ubuntu 16.04
 
@@ -50,7 +50,7 @@ output will look similar to this:
 f93f055fd7d7        pepecoin             "/bin/sh -c '/root..."   19 hours ago        Up 3 hours          0.0.0.0:29377->29377/tcp   pepecoin
 ```
 
-###Command Line Usage
+### Command Line Usage
 
 The following commands assume you have basic linux knowledge and have an ssh connection already established to you server. 
 
