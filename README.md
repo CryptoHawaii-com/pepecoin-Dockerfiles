@@ -44,8 +44,9 @@ check that both containers are now running
 `docker ps`
 
 output will look similar to this:
-`79edd506a5c3        pepecoinmasternode   "/root/.pepecoin/p..."   10 hours ago        Up 3 hours          0.0.0.0:29387->29387/tcp   pepecoinmasternode`
-`f93f055fd7d7        pepecoin             "/bin/sh -c '/root..."   19 hours ago        Up 3 hours          0.0.0.0:29377->29377/tcp   pepecoin`
+```79edd506a5c3        pepecoinmasternode   "/root/.pepecoin/p..."   10 hours ago        Up 3 hours          0.0.0.0:29387->29387/tcp   pepecoinmasternode
+
+f93f055fd7d7        pepecoin             "/bin/sh -c '/root..."   19 hours ago        Up 3 hours          0.0.0.0:29377->29377/tcp   pepecoin```
 
 **Command Line Usage**
 
