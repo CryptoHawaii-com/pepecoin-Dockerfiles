@@ -49,9 +49,48 @@ output will look similar to this:
 
 f93f055fd7d7        pepecoin             "/bin/sh -c '/root..."   19 hours ago        Up 3 hours          0.0.0.0:29377->29377/tcp   pepecoin
 ```
+**NO MASTER NODE STOP WEB SERVER**
+If you are not hosting a master node, you need to stop the webserver to secure the system.
+ssh into your server and execute the following 2 commands.
+
+`systemctl stop apache2`
+
+and then
+
+`systemctl disable apache2`
+
+We hope you choose to run a master node.
+
 
 ### Command Line Usage
 
 The following commands assume you have basic linux knowledge and have an ssh connection already established to you server. 
+There are 2 docker containers running: *pepecoin* and **pepecoinmasternode**
 
+**To enter a container**
 
+`docker exec -it CONTAINERNAME bash`
+
+where CONTAINERNAME is pepecoin or pepecoinmasternode (i.e. docker exec -it pepecoinmasternode bash)
+
+you will see a new root prompt once in the container 
+example output:
+```
+root@localhost:~# docker exec -it pepecoin bash
+root@f93f055fd7d7:/#
+```
+
+**pepecoind commands in container**
+
+Execute pepecoind commands within a container like this
+
+`/root/.pepecoin/pepecoind COMMAND`
+
+for example
+
+`/root/.pepecoin/pepecoind getinfo`
+
+All files are located in /root/.pepecoin on each node
+pepecoin.conf is located /root/.pepecoin/pepcoin.conf
+
+ 
