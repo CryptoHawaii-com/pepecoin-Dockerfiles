@@ -51,7 +51,7 @@ output will look similar to this:
 
 f93f055fd7d7        pepecoin             "/bin/sh -c '/root..."   19 hours ago        Up 3 hours          0.0.0.0:29377->29377/tcp   pepecoin
 ```
-**NO MASTER NODE STOP WEB SERVER**
+*OPTIONAL: If you are not a master node STOP the webserver*
 
 If you are not hosting a master node, you need to stop the webserver to secure the system.
 ssh into your server and execute the following 2 commands.
