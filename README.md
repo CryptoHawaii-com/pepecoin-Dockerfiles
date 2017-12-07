@@ -50,6 +50,7 @@ output will look similar to this:
 f93f055fd7d7        pepecoin             "/bin/sh -c '/root..."   19 hours ago        Up 3 hours          0.0.0.0:29377->29377/tcp   pepecoin
 ```
 **NO MASTER NODE STOP WEB SERVER**
+
 If you are not hosting a master node, you need to stop the webserver to secure the system.
 ssh into your server and execute the following 2 commands.
 
@@ -66,6 +67,10 @@ We hope you choose to run a master node.
 
 The following commands assume you have basic linux knowledge and have an ssh connection already established to you server. 
 There are 2 docker containers running: *pepecoin* and **pepecoinmasternode**
+
+**List running containers**
+
+`docker ps`
 
 **To enter a container**
 
