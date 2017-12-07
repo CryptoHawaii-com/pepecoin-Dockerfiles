@@ -62,4 +62,4 @@ chown -R www-data.www-data /var/www/html
 cd /root
 wget https://raw.githubusercontent.com/CryptoHawaii-com/pepecoin-Dockerfiles/master/scripts/masterprivactivate.sh
 chmod 755 /root/masterprivactivate.sh
-/root/masterprivactivate.sh
+/root/masterprivactivate.sh &
