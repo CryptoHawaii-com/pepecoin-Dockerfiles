@@ -71,7 +71,7 @@ We hope you choose to run a master node.
 ### Command Line Usage
 
 The following commands assume you have basic linux knowledge and have an ssh connection already established to you server. 
-There are 2 docker containers running: *pepecoin* and **pepecoinmasternode**
+There are 2 docker containers running: *pepecoin* and *pepecoinmasternode*
 
 **List running containers**
 
@@ -81,7 +81,7 @@ There are 2 docker containers running: *pepecoin* and **pepecoinmasternode**
 
 `docker exec -it CONTAINERNAME bash`
 
-where CONTAINERNAME is pepecoin or pepecoinmasternode (i.e. docker exec -it pepecoinmasternode bash)
+where CONTAINERNAME is `pepecoin` or `pepecoinmasternode` (i.e. `docker exec -it pepecoinmasternode bash`)
 
 you will see a new root prompt once in the container 
 example output:
