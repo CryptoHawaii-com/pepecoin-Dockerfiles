@@ -70,7 +70,7 @@ We hope you choose to run a master node.
 
 ### Command Line Usage
 
-The following commands assume you have basic linux knowledge and have an ssh connection already established to you server. 
+The following commands assume you have basic linux knowledge and have an ssh connection already established to your server. 
 There are 2 docker containers running: *pepecoin* and *pepecoinmasternode*
 
 **List running containers**
