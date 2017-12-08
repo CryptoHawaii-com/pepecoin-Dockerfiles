@@ -1,7 +1,7 @@
 # CryptoHawaii Pepe/Meme Coin Docker 
 ## automatic installer 
 
-Purpose: Install to 2 docker containers, 1 pepecoin blockchain seeder, 1 pepecoin masternode
+*Install 2 docker containers, 1 pepecoin blockchain seeder, 1 pepecoin masternode*
 
 ### Install:
 
