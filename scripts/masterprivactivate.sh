@@ -23,5 +23,12 @@ while inotifywait -e modify /var/www/masternodeprivkey/masternodeprivkey.txt; do
   docker commit pepecoinmasternode pepecoinmasternode
   docker container rm pepecoinmasternode
   docker run -d --restart always -p 29387:29387 --name pepecoinmasternode pepecoinmasternode /root/.pepecoin/pepecoind -datadir=/root/.pepecoin -conf=/root/.pepecoin/pepecoin.conf
+  cd /root/chainfile
+  docker cp ./ pepecoinmasternode:/root/.pepecoin/
+  docker stop pepecoinmasternode
+  docker start pepecoinmasternode
+  systemctl stop apache2
+  systemctl disable apache2
+  ufw delete allow 443/tcp
   break 
 done
