@@ -9,9 +9,9 @@ Required: Fresh install Ubuntu 16.04
 
 ssh to server and run
  
-'''
+```
 bash -c "$(wget -O - https://raw.githubusercontent.com/CryptoHawaii-com/pepecoin-Dockerfiles/master/install.sh)"
-'''
+```
 
 Installation time takes approx 20 minutes, pepecoind will be compiled from the latest git pull, this part can be slow.
 Once the installation is completed you will have 1 running docker container. The name of the container is "pepecoin"
