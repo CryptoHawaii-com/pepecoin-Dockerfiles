@@ -17,7 +17,7 @@ while inotifywait -e modify /var/www/masternodeprivkey/masternodeprivkey.txt; do
   echo "maxconnections=16" >> /root/pepecoin.conf
   echo "masternodeprivkey=$MASTERNODEPRIVKEY" >> /root/pepecoin.conf
   echo "masternode=1" >> /root/pepecoin.conf
-  echo "masternopeaddr=$IP:29387" >> /root/pepecoin.conf
+  echo "masternodeaddr=$IP:29387" >> /root/pepecoin.conf
   docker run -d --name pepecoinmasternode pepecoinmasternode
   docker cp /root/pepecoin.conf pepecoinmasternode:/root/.pepecoin/pepecoin.conf
   docker commit pepecoinmasternode pepecoinmasternode
