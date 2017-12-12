@@ -52,6 +52,7 @@ docker stop pepecoin
 docker start pepecoin
 
 
+cd /root/pepecoin/src
 rm /root/pepecoin/src/Dockerfile
 wget https://raw.githubusercontent.com/CryptoHawaii-com/pepecoin-Dockerfiles/master/pepecoinmasternode/Dockerfile
 docker build -t "pepecoinmasternode" .
