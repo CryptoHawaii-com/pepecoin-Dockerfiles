@@ -1,7 +1,7 @@
 # CryptoHawaii Pepe/Meme Coin Docker 
 
 ### Details:
-Memetic Master Node - Ideally this is run on a 2CPU Linode.
+Memetic Master Node - Ideally this is run on 2 CPU(s).
 
 What the script does: 
 
