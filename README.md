@@ -6,6 +6,7 @@ Memetic Master Node - Ideally this is run on a 2CPU Linode.
 What the script does: 
 
 Step 1 : Installs docker
+
 Step 2 : Installs MN's from github : https://github.com/CryptoHawaii-com/memetic-mn-docker
 
 This will create (2) master nodes: 
@@ -38,7 +39,7 @@ add this :
 https://www.youtube.com/watch?v=yOjFrc1UXTc&feature=youtu.be
   - Send EXACTLY 15,000 coins - otherwise you will get errors. (our video walk through was wrong to send 15,010 coins)
 
-### Install:
+### Installation Instructions:
 
 Required: Fresh install Ubuntu 16.04
 
