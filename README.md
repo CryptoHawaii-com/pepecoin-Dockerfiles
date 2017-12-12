@@ -9,10 +9,10 @@ Step 1 : Installs docker
 
 Step 2 : Installs MN's from github : https://github.com/CryptoHawaii-com/memetic-mn-docker
 
-This will create (2) master nodes: 
+This will create (1) master node and (1) seed node: 
 
-1. Seeding server on port 29377 and RPC port 29376
-2. Masternode on port 29477 and RPC port 29476
+1. Seeding server on port 29377
+2. Masternode on port 29387
 
 *all rewards goto you for helping out with the seeding. 
 
@@ -32,12 +32,7 @@ Notes :
 Help us out, sign the petition for Hawaii to allow Coinbase: http://cryptohawaii.com
 
 If you want assistance email info@cryptohawaii.com
-oops
-sorry
-Memetic / Pepe coin MasterToad/node with no Linux knowledgeMemetic / Pepe coin MasterToad/node with no Linux knowledge
-add this : 
-https://www.youtube.com/watch?v=yOjFrc1UXTc&feature=youtu.be
-  - Send EXACTLY 15,000 coins - otherwise you will get errors. (our video walk through was wrong to send 15,010 coins)
+
 
 ### Installation Instructions:
 
