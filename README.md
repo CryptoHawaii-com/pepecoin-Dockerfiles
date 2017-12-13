@@ -134,4 +134,15 @@ for example
 All files are located in /root/.pepecoin on each node
 pepecoin.conf is located /root/.pepecoin/pepcoin.conf
 
+If you found this helpful don't be shy to donate:
+MEME/PEPE : PWpvpjXvEuMEA42d1vGhZDMsoFCcHE9Aar
+BTC : 1DMjyW6V5enMPhzDQBR9QeU3Rt8B6EFjUK
+ZEN CASH : znUe52p5ZCrfFGLNBsJPgvdJMRcgeytoiQ2
+LTC : LVh26vHmUirETSYmymkGJTCFyhNRACvuEL
+ETH : 0x777ace7f2fbbbf29ad86d0a00e759953970393aa
+
+
+
+
+
  
