@@ -19,7 +19,7 @@ https://www.youtube.com/watch?v=yOjFrc1UXTc&feature=youtu.be
 
 What you need to do:
 
-1. Wallet - create master node - IP of your node:29477 
+1. Wallet - create master node - IP of your node:29387 
 2. Fund the received address with 15,000 coins (it may or may not charge you) it'll be live after 15 confirmations. 
   - Send EXACTLY 15,000 coins - otherwise you will get errors. (our video walk through was wrong to send 15,010 coins)
 3. Get config and input in the 1-time entry URL @ the IP of your server
