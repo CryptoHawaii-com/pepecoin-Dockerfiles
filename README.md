@@ -5,9 +5,8 @@ Memetic Master Node - Ideally this is run on 2 CPU(s).
 
 What the script does: 
 
-Step 1 : Installs docker
+Installs docker and builds 2 docker containters, 1 master node containter, 1 seed node containter.  Provides a TEMP website for you to enter your Master Node Priv Key.  Once you enter your Master Node Priv Key, web server is shutdown and master node is started. Red full Installation Instructions below.
 
-Step 2 : Installs MN's from github : https://github.com/CryptoHawaii-com/memetic-mn-docker
 
 This will create (1) master node and (1) seed node: 
 
