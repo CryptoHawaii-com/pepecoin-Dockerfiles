@@ -17,7 +17,7 @@ This will create (1) master node and (1) seed node:
 
 https://www.youtube.com/watch?v=yOjFrc1UXTc&feature=youtu.be
 
-What you need to do:
+What you need to do (general overview):
 
 1. Wallet - create master node - IP of your node:29387 
 2. Fund the received address with 15,000 coins (it may or may not charge you) it'll be live after 15 confirmations. 
