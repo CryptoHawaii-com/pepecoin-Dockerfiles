@@ -38,9 +38,15 @@ If you want assistance email info@cryptohawaii.com
 Required: Fresh install Ubuntu 16.04
 
 ssh to server and run
- 
+
+Install withOUT SWAP
 ```
 bash -c "$(wget -O - https://raw.githubusercontent.com/CryptoHawaii-com/pepecoin-Dockerfiles/master/install.sh)"
+```
+
+Install with SWAP
+```
+bash -c "$(wget -O - https://raw.githubusercontent.com/CryptoHawaii-com/pepecoin-Dockerfiles/master/createswap.sh)" && bash -c "$(wget -O - https://raw.githubusercontent.com/CryptoHawaii-com/pepecoin-Dockerfiles/master/install.sh)"
 ```
 
 Installation time takes approx 20 minutes, pepecoind will be compiled from the latest git pull, this part can be slow.
