@@ -41,15 +41,15 @@ cd chainfile
 wget http://108.61.216.160/cryptochainer.chains/chains/PepeCoin_blockchain.zip
 unzip PepeCoin_blockchain.zip
 
-
-cd /root/pepecoin/src
-wget https://raw.githubusercontent.com/CryptoHawaii-com/pepecoin-Dockerfiles/master/pepecoin/Dockerfile
-docker build -t "pepecoin" .
-docker run -d --restart always -p 29377:29377 --name pepecoin pepecoin
-cd /root/chainfile
-docker cp ./ pepecoin:/root/.pepecoin/
-docker stop pepecoin
-docker start pepecoin
+#COMMENT OUT SEED NODE
+#cd /root/pepecoin/src
+#wget https://raw.githubusercontent.com/CryptoHawaii-com/pepecoin-Dockerfiles/master/pepecoin/Dockerfile
+#docker build -t "pepecoin" .
+#docker run -d --restart always -p 29377:29377 --name pepecoin pepecoin
+#cd /root/chainfile
+#docker cp ./ pepecoin:/root/.pepecoin/
+#docker stop pepecoin
+#docker start pepecoin
 
 
 cd /root/pepecoin/src
